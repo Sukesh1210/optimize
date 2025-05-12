@@ -18,4 +18,7 @@ private Integer id;
 private String name;
 private Integer dob;
 
+@ManyToOne
+ private Movie movies;
+
 }
