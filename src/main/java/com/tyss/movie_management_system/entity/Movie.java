@@ -1,5 +1,4 @@
 package com.tyss.movie_management_system.entity;
-
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
