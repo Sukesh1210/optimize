@@ -19,28 +19,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
-@NoArgsConstructor
-@AllArgsConstructor
-@Getter
-@Setter
-@EqualsAndHashCode
-@ToString
-@Builder
-@Entity
-@Table(name = "actors")
+
 public class Actor {
-	
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Integer actorId;
-	private String name;
-	private Integer birthYear; 
-	
-	
-	@ManyToMany
-	private List<Movie> moviessuk;
-	
-	
-	
 
 }
