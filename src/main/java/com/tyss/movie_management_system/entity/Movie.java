@@ -21,7 +21,11 @@ public class Movie {
     @OneToMany(mappedBy = "movies",cascade = CascadeType.ALL)
     private List<Actor> actors;
 
+<<<<<<< HEAD
     @ManyToOne
     private Actor actor;
+=======
+
+>>>>>>> movie_actor
 
 }

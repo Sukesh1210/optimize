@@ -22,7 +22,10 @@ private Integer dob;
 
 @ManyToOne
  private Movie movies;
+<<<<<<< HEAD
 @OneToMany(mappedBy = "actors",cascade = CascadeType.ALL)
  private List<Movie> movie;
+=======
+>>>>>>> movie_actor
 
 }
