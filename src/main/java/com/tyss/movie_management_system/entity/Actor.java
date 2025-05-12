@@ -6,6 +6,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.List;
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
@@ -20,5 +22,7 @@ private Integer dob;
 
 @ManyToOne
  private Movie movies;
+@OneToMany(mappedBy = "actors",cascade = CascadeType.ALL)
+ private List<Movie> movie;
 
 }

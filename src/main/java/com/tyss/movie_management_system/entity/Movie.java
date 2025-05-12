@@ -22,4 +22,7 @@ public class Movie {
     @OneToMany(mappedBy = "movies",cascade = CascadeType.ALL)
     private List<Actor> actors;
 
+    @ManyToOne
+    private Actor actor;
+
 }
