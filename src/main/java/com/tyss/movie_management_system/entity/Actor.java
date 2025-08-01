@@ -23,4 +23,6 @@ public class Actor {
  @ManyToOne
  private Movie movies;
 
+
+
 }
