@@ -6,7 +6,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.List;
 
 @Data
 @AllArgsConstructor
@@ -20,8 +19,7 @@ public class Actor {
  private String name;
  private Integer dob;
 
- @ManyToOne
- private Movie movies;
+
 
 
 

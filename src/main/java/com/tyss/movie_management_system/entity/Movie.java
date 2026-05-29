@@ -4,8 +4,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.List;
-
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
@@ -18,8 +16,7 @@ public class Movie {
     private String movieName;
     private String industry;
 
-    @OneToMany(mappedBy = "movies",cascade = CascadeType.ALL)
-    private List<Actor> actors;
+
 
 
 
