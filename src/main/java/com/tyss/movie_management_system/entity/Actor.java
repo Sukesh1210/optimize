@@ -19,6 +19,8 @@ public class Actor {
  private String name;
  private Integer dob;
 
+ private Integer number;
+
 
 
 
