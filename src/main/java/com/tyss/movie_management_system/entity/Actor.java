@@ -21,6 +21,8 @@ public class Actor {
 
  private double xc;
 
+ private String first_name;
+
 
 
 }

@@ -12,4 +12,6 @@ public class Language {
 
     private String ch;
 
+    private Long vb;
+
 }
