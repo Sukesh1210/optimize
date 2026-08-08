@@ -5,5 +5,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class EmplyeeController {
 
+    public static void m1(){
+
+    }
+
 
 }
