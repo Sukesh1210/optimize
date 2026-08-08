@@ -15,9 +15,7 @@ public class Movie {
     private Integer movieId;
     private String movieName;
     private String industry;
-
-
-
+    private long nb;
 
 
 }

@@ -10,4 +10,7 @@ public class MovieManagementSystemApplication {
 		SpringApplication.run(MovieManagementSystemApplication.class, args);
 	}
 
+	public static void m2(){
+
+	}
 }
