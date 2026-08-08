@@ -19,7 +19,7 @@ public class Actor {
  private String name;
  private Integer dob;
 
-
+ private double xc;
 
 
 
